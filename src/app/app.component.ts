@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mf-header';
+  public title: string = 'mf-header';
+  public imgLogo: string = 'assets/images/logo_sistemas_enlinea.png';
 }

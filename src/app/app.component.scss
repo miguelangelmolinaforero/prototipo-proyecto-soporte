@@ -1,0 +1,26 @@
+.container {
+    background-color: #ebf3fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: inherit;
+    max-width: 1024px;
+    margin: 0 auto;
+    figure {
+        margin: auto 0;
+        padding: 0;
+    }
+    ul {
+        display: flex;
+    }
+    h3 {
+        margin: auto 0;
+    }
+    li {
+        list-style: none;
+        margin: auto 15px;
+    }
+}
